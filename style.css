@@ -1,0 +1,105 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f8f9fa;
+}
+
+/* Header Styles */
+header {
+    background-color: #1aa338;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header .title {
+    font-size: 1.2rem;
+    color: #dbef04f3;
+    font-weight: 300;
+}
+
+/* Layout Container */
+.main-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Section Common Styles */
+section {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #1e293b;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.line {
+    width: 50px;
+    height: 4px;
+    background-color: #2878fa;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+/* Skills Specific Styles */
+.skills-list {
+    list-style: none;
+}
+
+.skills-list li {
+    background-color: #f1f5f9;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #3b82f6;
+    border-radius: 0 4px 4px 0;
+    font-weight: 500;
+}
+
+/* Contact Specific Styles */
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-info p {
+    margin-bottom: 8px;
+}
+
+.contact-info a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
